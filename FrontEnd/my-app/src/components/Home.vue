@@ -7,7 +7,7 @@
 
 <div class="class1">
       <h1 v-if="userStore.user[0]" class="animated fadeInDown text-white" style="font-style: italic;">Welcome,{{ userStore.user[0].username }}</h1>
-      <h1 v-if="!userStore.user[0]" class="animated fadeInDown text-white" style="font-style: italic;">Welcome,You must Log in</h1>
+      <h1 v-if="!userStore.user[0]" class="animated fadeInDown text-white" style="font-style: italic;">Welcome,You must Log in !!!</h1>
 
       <p class="animated fadeInUp text-white" style="font-style: italic;">You can start preparing your todo list in the TodoApp application.</p>
 
